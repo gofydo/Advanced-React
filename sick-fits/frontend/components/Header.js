@@ -44,8 +44,8 @@ const Header = () => (
   <StyledHeader>
     <div className="bar">
       <Logo>
-        <Link>
-          <a href=''>Sick Fits</a>
+        <Link href='/'>
+          <a>Sick Fits</a>
         </Link>
       </Logo>
       <Nav/>
