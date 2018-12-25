@@ -1,9 +1,7 @@
 import Items from '../components/Items'
 
-const Shop = () => {
-    return <div>
-        <Items/>
-    </div>;
+const Shop = (props) => {
+    return <Items page={parseFloat(props.query.page) || 1}/>;
 }
 
 export default Shop;
